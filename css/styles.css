@@ -204,7 +204,7 @@ header nav ul li a:hover::after {
 }
 
 .about {
-    padding: 70px 0;
+    padding: 70px 0 110px;
     background-image: url(../images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -589,6 +589,11 @@ footer .footer-top {
     }
 
 }
+@media screen and (max-width:1199px) {
+    .about {
+        padding: 70px 0;
+    }
+}
 
 @media screen and (max-width:991px) {
     
@@ -731,7 +736,9 @@ footer .footer-top {
         margin-bottom: 0;
         margin-right: 15px;
     }
-    
+    .about-content ul {
+        padding-bottom: 0;
+    }
 }
 
 @media screen and (max-width:576px) {
